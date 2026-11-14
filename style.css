@@ -1,0 +1,465 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F8F5F0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #F8F5F0;
+    padding: 20px 0;
+}
+
+/* Logo */
+.navbar-brand {
+    font-size: 27px;
+    font-weight: bold;
+    color: #49392F;
+}
+
+/* Navbar Links */
+.nav-link {
+    color: #49392F;
+    margin-left: 18px;
+    font-size: 15px;
+}
+
+/* Hover Effect */
+.nav-link:hover {
+    color: #B28B65;
+}
+
+/* Resume Button */
+.resume-btn {
+    background-color: #49392F;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 5px;
+}
+
+.resume-btn:hover {
+    background-color: #B28B65;
+    color: white;
+}
+
+/* Hero Section */
+.hero-section {
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+}
+
+/* Small Subtitle */
+.hero-subtitle {
+    color: #B28B65;
+    letter-spacing: 4px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Main Heading */
+.hero-title {
+    font-size: 55px;
+    font-weight: bold;
+    color: #49392F;
+    margin-bottom: 10px;
+}
+
+/* Profession */
+.hero-role {
+    font-size: 25px;
+    color: #92765F;
+    margin-bottom: 20px;
+}
+
+/* Description */
+.hero-description {
+    color: #75685E;
+    font-size: 16px;
+    line-height: 1.8;
+    max-width: 500px;
+}
+
+/* Buttons */
+.hero-buttons {
+    margin-top: 30px;
+}
+
+.primary-btn {
+    background-color: #49392F;
+    color: white;
+    padding: 12px 25px;
+    margin-right: 10px;
+}
+
+.primary-btn:hover {
+    background-color: #B28B65;
+    color: white;
+}
+
+.secondary-btn {
+    border: 1px solid #49392F;
+    color: #49392F;
+    padding: 12px 25px;
+}
+
+.secondary-btn:hover {
+    background-color: #49392F;
+    color: white;
+}
+
+/* Profile Image */
+.hero-image img {
+    width: 350px;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 180px 180px 20px 20px;
+    border: 8px solid #E8DED2;
+}
+
+/* About Section */
+.about-section {
+    padding: 100px 0;
+    background-color: #F0EAE2;
+}
+
+/* About Content */
+.about-content {
+    max-width: 850px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Section Subtitle */
+.section-subtitle {
+    color: #B28B65;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+/* Section Heading */
+.section-title {
+    color: #49392F;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* About Description */
+.about-description {
+    color: #75685E;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+}
+
+/* Personal Details */
+.about-details {
+    margin: 30px auto;
+    padding: 22px;
+    max-width: 550px;
+    background-color: #F8F5F0;
+    border: 1px solid #E1D5C8;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.about-details p {
+    color: #49392F;
+    margin-bottom: 14px;
+}
+
+.about-details p:last-child {
+    margin-bottom: 0;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+
+    .about-section {
+        padding: 70px 15px;
+    }
+
+    .about-content {
+        max-width: 100%;
+    }
+
+    .section-title {
+        font-size: 32px;
+    }
+
+    .about-description {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    .about-details {
+        padding: 18px;
+    }
+
+}
+
+/* Skills Section */
+.skills-section {
+    padding: 100px 0;
+    background-color: #F8F5F0;
+}
+
+/* Skills Description */
+.skills-description {
+    color: #75685E;
+    font-size: 16px;
+}
+
+/* Skill Cards */
+.skill-card {
+    background-color: #FFFFFF;
+    padding: 35px 15px;
+    text-align: center;
+    border: 1px solid #E8DED2;
+    border-radius: 12px;
+    transition: 0.3s ease;
+}
+
+/* Skill Heading */
+.skill-card h4 {
+    color: #49392F;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Skill Description */
+.skill-card p {
+    color: #92765F;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+/* Hover Effect */
+.skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(73, 57, 47, 0.12);
+    border-color: #B28B65;
+}
+
+/* Projects Section */
+.projects-section {
+    padding: 100px 0;
+    background-color: #F0EAE2;
+}
+
+.projects-description {
+    color: #75685E;
+    font-size: 16px;
+}
+
+/* Project Card */
+.project-card {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    overflow: hidden;
+    height: 100%;
+    transition: 0.3s ease;
+    border: 1px solid #E8DED2;
+}
+
+/* Project Image */
+.project-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Project Content */
+.project-content {
+    padding: 25px;
+}
+
+.project-content h4 {
+    color: #49392F;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.project-content p {
+    color: #75685E;
+    line-height: 1.7;
+    font-size: 14px;
+}
+
+/* Technologies */
+.project-tech {
+    color: #B28B65;
+    font-size: 13px;
+    margin: 18px 0;
+}
+
+/* Project Buttons */
+.project-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.project-btn {
+    background-color: #49392F;
+    color: white;
+    padding: 9px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.project-btn:hover {
+    background-color: #B28B65;
+    color: white;
+}
+
+.outline-btn {
+    background-color: transparent;
+    color: #49392F;
+    border: 1px solid #49392F;
+}
+
+/* Card Hover */
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(73, 57, 47, 0.12);
+}
+
+/* Education & Experience */
+.journey-section {
+    padding: 100px 0;
+    background-color: #F8F5F0;
+}
+
+/* Column Heading */
+.journey-heading {
+    color: #49392F;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Journey Card */
+.journey-card {
+    background-color: #FFFFFF;
+    padding: 28px;
+    border-left: 4px solid #B28B65;
+    border-radius: 8px;
+    box-shadow: 0 5px 20px rgba(73, 57, 47, 0.06);
+}
+
+/* Date */
+.journey-date {
+    color: #B28B65;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* Card Heading */
+.journey-card h4 {
+    color: #49392F;
+    font-size: 19px;
+    margin: 12px 0;
+}
+
+/* Institution */
+.journey-place {
+    color: #92765F;
+    font-weight: bold;
+}
+
+/* Description */
+.journey-card p {
+    color: #75685E;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 100px 0;
+    background-color: #F0EAE2;
+}
+
+.contact-description {
+    color: #75685E;
+    font-size: 16px;
+}
+
+/* Form Labels */
+.contact-section label {
+    color: #49392F;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+/* Form Inputs */
+.contact-section .form-control {
+    padding: 13px;
+    border: 1px solid #D9CBBE;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    color: #49392F;
+}
+
+/* Input Focus */
+.contact-section .form-control:focus {
+    border-color: #B28B65;
+    box-shadow: 0 0 0 0.2rem rgba(178, 139, 101, 0.15);
+    outline: none;
+}
+
+/* Textarea */
+.contact-section textarea {
+    resize: vertical;
+}
+
+/* Submit Button */
+.contact-section button {
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer Section */
+
+.footer {
+    background-color: #3e3028;
+    color: #ffffff;
+    padding: 40px 0 20px;
+}
+
+.footer h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    margin: 25px 0;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 12px;
+    display: inline-block;
+}
+
+.footer-links a:hover {
+    color: #d6bfa8;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #d6c9bd;
+    margin-top: 25px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
